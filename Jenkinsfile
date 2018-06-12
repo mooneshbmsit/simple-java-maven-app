@@ -3,9 +3,9 @@ pipeline {
     dockerfile true
   }
   stages {
-    stage ("example" ) {
+    stage ('example' ) {
       steps {
-        echo "Hello world!"
+        echo 'Hello world!'
       }
     } 
   }
